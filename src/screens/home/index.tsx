@@ -1,4 +1,5 @@
 import {SafeAreaView, Text, StyleSheet} from 'react-native';
+import CommonButton from 'components/button/commonButton';
 
 const HomeScreen: React.FC = () => {
   return (
@@ -6,6 +7,7 @@ const HomeScreen: React.FC = () => {
       style={styles.backgroundContainer}
     >
         <Text>Home Screen</Text>
+        <CommonButton></CommonButton>
     </SafeAreaView>
   );
 };
