@@ -5,6 +5,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {
   HomeScreen,
   TestScreen,
+  TestStyleScreen,
   TestGestureHandlerScreen,
   TestReanimatedScreen,
 } from './src/screens';
@@ -19,6 +20,7 @@ function RootStack() {
         screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Test" component={TestScreen} />
+        <Stack.Screen name="TestStyle" component={TestStyleScreen} />
         <Stack.Screen
           name="TestGestureHandler"
           component={TestGestureHandlerScreen}

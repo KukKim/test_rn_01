@@ -4,7 +4,7 @@ import {useNavigation} from '@react-navigation/native';
 import CommonButton from 'components/button/commonButton';
 
 const TestScreen: React.FC = () => {
-  const testPageList = ['TestGestureHandler', 'TestReanimated'];
+  const testPageList = ['TestStyle', 'TestGestureHandler', 'TestReanimated'];
   const navigation = useNavigation();
 
   const renderItem = ({item}) => {
